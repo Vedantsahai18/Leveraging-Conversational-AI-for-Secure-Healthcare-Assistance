@@ -106,7 +106,7 @@ docker container inspect <container-id>
 ![Image of user knowledge graph](output/ukb.png)
 
 ## Mobile responsive
-![Image of mobile responsive](docs/mobile-responsive.png)
+![Image of mobile responsive](output/mobile-responsive.png)
 
 ## Project PPT
 ![PPT](https://drive.google.com/file/d/1iaLDXMwqxdpMxPkBEmPbYyMyF46ZgYbZ/view?usp=sharing)
