@@ -1,0 +1,39 @@
+### localhost
+action_endpoint:
+  url: ${ACTION_URL}
+
+
+tracker_store:
+  type: custom.custom_tracker.GridTrackerStore
+  url: ${MONGO_URL}
+  db: rasa
+  neo4j_host: ${NEO4J_URL}
+ 
+ # custom rasa tracker to tackle bson 16mb document limit
+#  tracker_store:
+#    type: custom.custom_tracker.GridTrackerStore
+#    url: mongodb://mongodb:27017
+#    db: rasa
+ 
+#  event_broker:
+#    type: "pika"
+#    url: ${RABBITMQ_HOST}
+#    username: ${RABBITMQ_USERNAME}
+#    password: ${RABBITMQ_PASSWORD}
+#    queue: ${RABBITMQ_QUEUE}
+ 
+# tracker_store:
+#   type: SQL
+#   dialect: "postgresql"  
+#   url: "localhost"  # (optional) host of the sql db, e.g. "localhost"
+#   port: 5432
+#   db: "rasa"  # path to your db
+#   username: "postgres" # username used for authentication
+#   password: "postgres"  # password used for authentication
+
+
+# tracker_store:
+#   type: redis
+#   url: "localhost"
+#   port: "6379"
+#   db: 0

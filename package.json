@@ -1,0 +1,21 @@
+{
+  "name": "vortex-mit2020",
+  "version": "1.0.20",
+  "description": "Vortex app for mit 2020",
+  "main": "index.js",
+  "scripts": {
+    "git": "git add . && git commit -m",
+    "postgit": "git push",
+    "tag": "npm version patch && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejson03/vortex-mit2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejson03/vortex-mit2020/issues"
+  },
+  "homepage": "https://github.com/ejson03/vortex-mit2020#readme"
+}
