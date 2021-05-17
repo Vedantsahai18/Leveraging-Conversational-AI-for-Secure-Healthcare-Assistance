@@ -70,7 +70,7 @@ To just run local servers if local
 ## Run everything on docker
 
 ```
-docker-compose up -d --build main
+docker-compose up -d --build 
 ```
 
 
