@@ -1,6 +1,13 @@
 # EHR
 Access control of medical records using BigchainDB & IPFS
 
+# Table of Contents
+
+* [Description](https://github.com/ejson03/Medical-Chatbot#description)
+* [Installation](https://github.com/ejson03/Medical-Chatbot#installation)
+* [Output](https://github.com/ejson03/Medical-Chatbot#output)
+* [Contributors](https://github.com/ejson03/Medical-Chatbot#contributors)
+* [License](https://github.com/ejson03/Medical-Chatbot#license)
 
 # Description
 
@@ -10,20 +17,21 @@ There is a rapid increase in generation of medical data especially in a situatio
 
 BigchainDB is a decentralized database that has immutability just like traditional blockchains. We have attempted to develop an end to end system for succesful storage, transfer and tracking of patient healthcare data. All records are encrypted using AES-256 encryption and the access for this data is transferred through blockchain and assymetric cryptography. Due to limited blockchain data storage, files are being stored in IPFS.
 
-A basic chatbot is also designed to avoid entering data manually into forms. Conversational history is tracked and stored on the blockchain too to maintain credibility of the chatbot performance.
+There is a wave of emotional unstabiltiy among people who are on a downward spiral in life or are going through hard times. We have developed a chat companion to make the user feel better and to track analysis of users behaviour. Chatbot as a compnion can provide you factual informatio
 
-# Contributing
-For commiting
+This project as a chatbot is a part of our complete project 
+
+[Medical Analytica](https://github.com/ejson03/Medical-Analytica)
+
+
+# Installation
+
+Clone the repository
 ```
-npm run git -- "commit message"
+git clone https://github.com/ejson03/Medical-Analytica.git
 ```
 
-For deploying
-```
-npm run tag
-```
-
-# To build 
+## To build without Docker
 
 Make virtual env
 ```
@@ -44,7 +52,7 @@ Running rasa and node in local
 ./scripts/build_local.bat
 ```
 
-# To run
+or
 
 To just run local servers if local and start docker
 ```
@@ -58,6 +66,71 @@ To just run local servers if local
 ```
 ./scripts/runserver.bat
 ```
+
+## Run everything on docker
+
+```
+docker-compose up -d --build main
+```
+
+
+Essential docker commands
+```
+docker build -t <container-name> .
+docker run -t <container-name> -p <port>:<port> [ -d for silent]
+docker system prune -a (remove all containers)
+docker ps (check running containers)
+docker stop <container-id>  (stop single container)
+docker rm <container-id> (remove single container)
+docker rmi <image-id> (remove image)
+docker container stop $(docker container ls -aq) (stop all containers)
+docker container rm $(docker container ls -aq) (remove all containers)
+docker container inspect <container-id>
+```
+
+# Output
+
+## System Architecture
+![Image of System Architeture](output/blockdiagram.png)
+
+## Blockchain Architecture
+![Image of Blockchain Architecture](output/blockchainarch.png)
+
+## Chabot Architecture
+![Image of Chabot Architecture](output/architecture.png)
+
+## Medical Knowledge Graph
+![Image of medical knowledge graph](output/kb.png)
+
+## User Knowledge Graph
+![Image of user knowledge graph](output/ukb.png)
+
+## Mobile responsive
+![Image of mobile responsive](docs/mobile-responsive.png)
+
+## Project PPT
+![PPT](https://drive.google.com/file/d/1iaLDXMwqxdpMxPkBEmPbYyMyF46ZgYbZ/view?usp=sharing)
+
+## Project Report
+![Report](https://drive.google.com/file/d/1PQ-2ZngP3t9lCNq4PN4uc4mj5OoCK6cq/view?usp=sharing)
+
+## Project Youtube Link
+![Youtube Link](https://drive.google.com/file/d/1t38fBO57A_LC4QA8xdyfBVDmnpVRFu6E/view?usp=sharing)
+
+
+# Contributors
+
+* Vedant Sahai [@Vedantsahai18](https://github.com/Vedantsahai18)
+* Elvis Dsouza [@ejson03](https://github.com/ejson03)
+* Pratik Chowdhury [@pratikpc](https://github.com/pratikpc)
+
+In order to contribute please create a ```PULL REQUEST```, we will go through it and if all looks good, it will be accepted.
+
+# License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[MIT License Link](https://github.com/ejson03/Medical-Analytica/blob/master/LICENSE)
 
 
 
