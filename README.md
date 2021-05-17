@@ -1,5 +1,5 @@
-# EHR
-Access control of medical records using BigchainDB & IPFS
+# Leveraging Conversational AI for Secure Healthcare Assistance
+Access control of medical records using BigchainDB, IPFS & RASA
 
 # Table of Contents
 
