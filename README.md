@@ -109,13 +109,13 @@ docker container inspect <container-id>
 ![Image of mobile responsive](output/mobile-responsive.png)
 
 ## Project PPT
-![PPT](https://drive.google.com/file/d/1iaLDXMwqxdpMxPkBEmPbYyMyF46ZgYbZ/view?usp=sharing)
+[Project PPT Link](https://drive.google.com/file/d/1iaLDXMwqxdpMxPkBEmPbYyMyF46ZgYbZ/view?usp=sharing)
 
 ## Project Report
-![Report](https://drive.google.com/file/d/1PQ-2ZngP3t9lCNq4PN4uc4mj5OoCK6cq/view?usp=sharing)
+[Project Report Link](https://drive.google.com/file/d/1PQ-2ZngP3t9lCNq4PN4uc4mj5OoCK6cq/view?usp=sharing)
 
-## Project Youtube Link
-![Youtube Link](https://drive.google.com/file/d/1t38fBO57A_LC4QA8xdyfBVDmnpVRFu6E/view?usp=sharing)
+## Project Video  Link
+[Video Link](https://drive.google.com/file/d/1t38fBO57A_LC4QA8xdyfBVDmnpVRFu6E/view?usp=sharing)
 
 
 # Contributors
