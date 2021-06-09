@@ -11,15 +11,15 @@ Access control of medical records using BigchainDB, IPFS & RASA
 
 # Description
 
-There is a rapid increase in generation of medical data especially in a situation of medical emergency or crisis. When hospitals are understaffed to maintain healthcare data, they are prone to be tampered with. Users do not recieve their medical information on time and cannot approach other institutions quickly with their medical history.
+There is a rapid increase in the generation of medical data, especially in a medical emergency or crisis. When hospitals are understaffed to maintain healthcare data, they are prone to be tampered with. Users do not receive their medical information on time and cannot approach other institutions quickly with their medical history.
 
-* Solution: Bring EHR to blockchain
+Solution: Bring EHR to blockchain
 
-BigchainDB is a decentralized database that has immutability just like traditional blockchains. We have attempted to develop an end to end system for succesful storage, transfer and tracking of patient healthcare data. All records are encrypted using AES-256 encryption and the access for this data is transferred through blockchain and assymetric cryptography. Due to limited blockchain data storage, files are being stored in IPFS.
+BigchainDB is a decentralized database that has immutability just like traditional blockchains. We have attempted to develop an end to end system for successful storage, transfer and tracking of patient healthcare data. All records are encrypted using AES-256 encryption and the access for this data is transferred through blockchain and asymmetric cryptography. Due to limited blockchain data storage, files are being stored in IPFS.
 
-There is a wave of emotional unstabiltiy among people who are on a downward spiral in life or are going through hard times. We have developed a chat companion to make the user feel better and to track analysis of users behaviour. Chatbot as a compnion can provide you factual informatio
+There is a wave of emotional instability among people who are on a downward spiral in life or are going through hard times. We have developed a chat companion to make the user feel better and track users' behaviour. Chatbot as a companion can provide you factual information
 
-This project as a chatbot is a part of our complete project 
+This project as a chatbot is a part of our complete project
 
 [Medical Analytica](https://github.com/ejson03/Medical-Analytica)
 
